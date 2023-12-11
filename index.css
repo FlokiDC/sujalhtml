@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2, 255, 171);
+    background-image: "https://www.sccrescue.org/wp-content/uploads/2020/11/JEN12666-1.jpg";
+    background-attachment: fixed;
+    
+}
+
+.container {
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('https://www.sccrescue.org/wp-content/uploads/2020/05/CC_Building-Dogs-1200x471.png');
+    background-size: cover;
+    color: rgb(255, 225, 0);
+    text-align: center;
+    background-color: rgb(0, 145, 255);
+    padding: 100px 0;
+    font-weight: 800;
+}
+
+.pet-list {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.pet-card {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.pet-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.about, .contact {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
